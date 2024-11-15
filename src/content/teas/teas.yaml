@@ -26,7 +26,7 @@ teas:
     inStock: true
     brewTemp: 100
     brewTime: 3+ minutes
-    whereFrom: Twinings Wind Down/Wellbeing collection
+    whereFrom: Twinings Wind Down/Wellbeing
   - name: Sleep - valerian & orange
     tags:
       - sleep
@@ -43,7 +43,7 @@ teas:
     inStock: true
     brewTemp: 100
     brewTime: 3+ minutes
-    whereFrom: Twinings Wind Down collection
+    whereFrom: Twinings Wind Down
   - name: Sweet dreams
     tags:
       - sleep
@@ -61,7 +61,7 @@ teas:
     inStock: true
     brewTemp: 100
     brewTime: 3+ minutes
-    whereFrom: Twinings Wind Down collection
+    whereFrom: Twinings Wind Down
   - name: Moment of calm
     tags: []
     ingredients:
@@ -78,7 +78,7 @@ teas:
     inStock: true
     brewTemp: 100
     brewTime: 3+ minutes
-    whereFrom: Twinings Wind Down collection
+    whereFrom: Twinings Wind Down
   - name: Time to unwind
     tags: []
     ingredients:
@@ -95,7 +95,7 @@ teas:
     inStock: true
     brewTemp: 102
     brewTime: 3+ minutes
-    whereFrom: Twinings Wind Down collection
+    whereFrom: Twinings Wind Down
   - name: Defence
     tags:
       - immune system
@@ -115,7 +115,7 @@ teas:
     inStock: true
     brewTemp: 90
     brewTime: 3+ minutes
-    whereFrom: Twinings Wellbeing collection
+    whereFrom: Twinings Wellbeing
   - name: Glow
     tags: []
     ingredients:
@@ -133,7 +133,7 @@ teas:
     inStock: true
     brewTemp: 90
     brewTime: 3+ minutes
-    whereFrom: Twinings Wellbeing collection
+    whereFrom: Twinings Wellbeing
   - name: Digest
     tags:
       - digestion
@@ -151,7 +151,7 @@ teas:
     inStock: true
     brewTemp: 100
     brewTime: 3+ minutes
-    whereFrom: Twinings Wellbeing collection
+    whereFrom: Twinings Wellbeing
   - name: Detox
     tags: []
     ingredients:
@@ -171,7 +171,7 @@ teas:
     inStock: true
     brewTemp: 100
     brewTime: 3+ minutes
-    whereFrom: Twinings Wellbeing collection
+    whereFrom: Twinings Wellbeing
   - name: English breakfast tea
     tags: []
     ingredients: []
@@ -434,7 +434,7 @@ teas:
       - chemicals
     muchCaffeine: false
     type: loose
-    base: not tea
+    base: not
     inStock: true
     brewTemp: 90
     brewTime: '0'
