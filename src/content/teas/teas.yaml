@@ -1,183 +1,310 @@
 teas:
-  - name: Redbush
+  - name: Apple & pear green tea
     tags: []
     ingredients: []
+    muchCaffeine: true
+    type: bag
+    base: green
+    inStock: true
+    brewTemp: 80
+    brewTime: 2 minutes
+    whereFrom: Twinings
+  - name: Sleep - spiced apple
+    tags:
+      - sleep
+    ingredients:
+      - passionflower
+      - apple pieces
+      - camomile
+      - cinnamon bark
+      - cardamom
+      - cloves
+      - natural flavourings
     muchCaffeine: false
     type: bag
-    base: red
+    base: fruit
     inStock: true
-    brewTemp: 90
-    brewTime: 4 mins
-  - name: Vanilla redbush
-    tags: []
-    ingredients: []
-    muchCaffeine: false
-    type: loose
-    base: red
-    inStock: true
-    brewTemp: 90
-    brewTime: 4 mins
-  - name: Strawberry and cream
-    tags: []
-    ingredients: []
-    muchCaffeine: false
-    type: loose
-    base: red
-    inStock: true
-    brewTemp: 90
-    brewTime: 4 mins
-  - name: Peanut butter hot chocolate sachet
+    brewTemp: 100
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wind Down/Wellbeing collection
+  - name: Sleep - valerian & orange
     tags:
-      - chocolate
-      - real
-    ingredients: []
-    muchCaffeine: false
-    type: loose
-    base: not
-    inStock: false
-    brewTemp: 70
-    brewTime: 1.5--2 mins microwaved milk
-    whereFrom: Hotel Chocolat
-  - name: Options instant hot chocolate
-    tags:
-      - chocolate
-      - instant
-    ingredients: []
-    muchCaffeine: false
-    type: loose
-    base: not
-    inStock: true
-    brewTemp: 100
-    brewTime: 0 mins
-  - name: Dong fang mei ren
-    tags: []
-    ingredients: []
-    muchCaffeine: true
-    type: loose
-    base: oolong
-    inStock: true
-    brewTemp: 90
-    brewTime: 2--3 mins
-    whereFrom: Tealyra
-  - name: Prince Vladimir
-    tags: []
+      - sleep
     ingredients:
-      - China tea
-      - bergamot
-      - lemon
-      - grapefruit
-      - vanilla
-      - spices
-    muchCaffeine: true
-    type: loose
-    base: black
-    inStock: true
-    brewTemp: 100
-    brewTime: 3 mins
-    whereFrom: Kusmi tea
-  - name: Chai
-    tags: []
-    ingredients:
-      - black tea
-      - cinnamon
-      - clove
-      - ginger
-      - cumin
-      - coriander
-      - star anise
-      - fennel
-    muchCaffeine: true
-    type: loose
-    base: black
-    inStock: true
-    brewTemp: 100
-    brewTime: 5 mins
-    whereFrom: Fortnum & Mason
-  - name: Genmaicha
-    tags: []
-    ingredients:
-      - green tea
-      - toasted rice
-    muchCaffeine: true
-    type: loose
-    base: green
-    inStock: true
-    brewTemp: 70
-    brewTime: 2--3 mins
-  - name: After eight
-    tags: []
-    ingredients: []
-    muchCaffeine: true
-    type: loose
-    base: black
-    inStock: true
-    brewTemp: 100
-    brewTime: 2--3 mins
-  - name: Black dragon
-    tags: []
-    ingredients: []
-    muchCaffeine: true
-    type: loose
-    base: oolong
-    inStock: true
-    brewTemp: 90
-    brewTime: 2--3 mins
-  - name: Mint and green
-    tags: []
-    ingredients:
-      - green tea
-      - mint
-    muchCaffeine: true
-    type: loose
-    base: green
-    inStock: true
-    brewTemp: 70
-    brewTime: 2--3 mins
-  - name: Smoky grey
-    tags: []
-    ingredients:
-      - earl grey
-      - lapsang
-    muchCaffeine: true
-    type: loose
-    base: black
-    inStock: true
-    brewTemp: 100
-    brewTime: 3--4 mins
-  - name: Gui hua osmanthus oolong
-    tags: []
-    ingredients:
-      - oolong tea
-      - osmanthus
-    muchCaffeine: true
-    type: loose
-    base: oolong
-    inStock: true
-    brewTemp: 90
-    brewTime: 2--3 mins
-    whereFrom: Tealyra
-  - name: Peppermint
-    tags: []
+      - camomile
+      - passionflower
+      - lavender
+      - orange blossom
+      - valerian root
+      - blood orange flavouring
     muchCaffeine: false
     type: bag
     base: herby
     inStock: true
     brewTemp: 100
-    brewTime: 5--8 mins
-  - name: Winter tea
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wind Down collection
+  - name: Sweet dreams
+    tags:
+      - sleep
+    ingredients:
+      - passionflower
+      - apple pieces
+      - limeflower
+      - valerian root
+      - raspberry flavouring
+      - beetroot
+      - niacin
+    muchCaffeine: false
+    type: bag
+    base: fruit
+    inStock: true
+    brewTemp: 100
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wind Down collection
+  - name: Moment of calm
+    tags: []
+    ingredients:
+      - camomile
+      - roasted chicory root
+      - apple pieces
+      - cinnamon
+      - cardamon
+      - niacin
+      - natural flavourings
+    muchCaffeine: false
+    type: bag
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wind Down collection
+  - name: Time to unwind
+    tags: []
+    ingredients:
+      - lemon balm
+      - camomile
+      - limeflower
+      - strawberry flavouring
+      - liquorice root
+      - beetroot
+      - vitamin B12
+    muchCaffeine: false
+    type: bag
+    base: fruit
+    inStock: true
+    brewTemp: 102
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wind Down collection
+  - name: Defence
+    tags:
+      - immune system
+    ingredients:
+      - green tea
+      - ginger root
+      - white hibiscus
+      - cinnamon bark
+      - lemon flavouring
+      - echinacea root
+      - lemon peel
+      - vitamin C
+      - lime flavouring
+    muchCaffeine: true
+    type: bag
+    base: green
+    inStock: true
+    brewTemp: 90
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wellbeing collection
+  - name: Glow
+    tags: []
+    ingredients:
+      - green tea
+      - apple pieces
+      - nettle
+      - strawberry flavouring
+      - peppermint
+      - cucumber flavouring
+      - aloe vera
+      - biotin
+    muchCaffeine: true
+    type: bag
+    base: green
+    inStock: true
+    brewTemp: 90
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wellbeing collection
+  - name: Digest
+    tags:
+      - digestion
+    ingredients:
+      - spearmint
+      - rooibos leaves
+      - apple flavouring
+      - ginger
+      - peppermint
+      - apple pieces
+      - baobab
+    muchCaffeine: false
+    type: bag
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wellbeing collection
+  - name: Detox
+    tags: []
+    ingredients:
+      - fennel
+      - lemon peel
+      - lemongrass
+      - burdock root
+      - ginger
+      - spearmint
+      - natural flavourings
+      - rooibos
+      - verbena
+      - selenium
+    muchCaffeine: false
+    type: bag
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 3+ minutes
+    whereFrom: Twinings Wellbeing collection
+  - name: English breakfast tea
+    tags: []
+    ingredients: []
+    muchCaffeine: true
+    type: loose
+    base: black
+    inStock: true
+    brewTemp: 100
+    brewTime: 2--4 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Rooibos
+    tags: []
+    ingredients: []
+    muchCaffeine: false
+    type: loose
+    base: red
+    inStock: true
+    brewTemp: 100
+    brewTime: 4--5 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Rose black
+    tags: []
+    ingredients: []
+    muchCaffeine: true
+    type: loose
+    base: black
+    inStock: true
+    brewTemp: 100
+    brewTime: 3-4 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Mangoberry white
     tags: []
     ingredients:
       - apple
-      - redbush
-      - chicory root
-      - rose
-    muchCaffeine: false
-    type: bag
-    base: red
+      - mango
+      - rosehips
+      - white tea
+    muchCaffeine: true
+    type: loose
+    base: white
     inStock: true
     brewTemp: 90
-    brewTime: 5 mins
-  - name: Lapsang souchong
+    brewTime: 2--3 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Genmaicha green
+    tags: []
+    ingredients:
+      - bancha green tea
+      - roasted brown rice
+    muchCaffeine: true
+    type: loose
+    base: green
+    inStock: true
+    brewTemp: 80
+    brewTime: 1-2 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Jasmine green
+    tags: []
+    ingredients: []
+    muchCaffeine: true
+    type: loose
+    base: green
+    inStock: true
+    brewTemp: 80
+    brewTime: 1--2 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Lemon ginger
+    tags: []
+    ingredients:
+      - ginger
+      - lemongrass
+      - liquorice root
+      - lemon peel
+      - spearmint
+    muchCaffeine: false
+    type: bag
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 4--5 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Sleep
+    tags:
+      - sleep
+    ingredients:
+      - peppermint
+      - lemongrass
+      - rosehips
+      - hibiscus
+      - camomile
+      - valerian root
+    muchCaffeine: false
+    type: bag
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 4--5 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Ginger jazz
+    tags: []
+    ingredients:
+      - rosemary
+      - nettle
+      - rosehip
+      - rooibos
+      - lavender
+      - ginger
+      - mate green
+      - pu-erh tea
+      - fennel
+      - cinnamon
+      - liquorice root
+      - cardamom pod
+      - black pepper
+      - clove buds
+    muchCaffeine: true
+    type: loose
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 3--4 minutes
+    whereFrom: Heavenly Tea Leaves
+  - name: Decaf tea
+    tags: []
+    ingredients: []
+    muchCaffeine: false
+    type: bag
+    base: black
+    inStock: true
+    brewTemp: 100
+    brewTime: 1--2 minutes
+    whereFrom: PG Tips
+  - name: Tea
     tags: []
     ingredients: []
     muchCaffeine: true
@@ -185,5 +312,129 @@ teas:
     base: black
     inStock: true
     brewTemp: 100
-    brewTime: 3--5 mins
+    brewTime: 1--2 minutes
+    whereFrom: PG Tips
+  - name: Turmeric gold
+    tags: []
+    ingredients:
+      - turmeric
+      - lemon
+      - green tea
+    muchCaffeine: true
+    type: bag
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 5-15 minutes
+    whereFrom: Pukka
+  - name: Turmeric with orange & star anise
+    tags: []
+    ingredients:
+      - turmeric
+      - lemongrass
+      - star anise
+      - liquorice root
+      - orange peel
+    muchCaffeine: false
+    type: bag
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 3--5 minutes
     whereFrom: Twinings
+  - name: Supreme matcha green
+    tags: []
+    ingredients: []
+    muchCaffeine: true
+    type: bag
+    base: green
+    inStock: true
+    brewTemp: 100
+    brewTime: 3--5 minutes
+    whereFrom: Pukka
+  - name: Lady Grey
+    tags: []
+    ingredients:
+      - black tea
+      - orange peel
+      - lemon peel
+      - bergamot flavouring
+    muchCaffeine: true
+    type: bag
+    base: black
+    inStock: true
+    brewTemp: 100
+    brewTime: 2--3 minutes
+    whereFrom: Twinings
+  - name: Decaf Earl Grey
+    tags: []
+    ingredients: []
+    muchCaffeine: false
+    type: bag
+    base: black
+    inStock: true
+    brewTemp: 103
+    brewTime: 3--5 minutes
+  - name: Sleep
+    tags:
+      - sleep
+    ingredients:
+      - camomile
+      - passionflower
+      - cinnamon
+      - apple pomace
+      - clove stem
+      - cardamom
+    muchCaffeine: false
+    type: bag
+    base: herby
+    inStock: true
+    brewTemp: 100
+    brewTime: 5+ minutes
+    whereFrom: Tesco
+  - name: Immune
+    tags:
+      - immune system
+    ingredients:
+      - apple pomace
+      - apple
+      - flavouring
+      - orange peel
+      - rosehip
+      - beetroot
+      - ginger
+      - chicory root
+      - hibiscus
+      - citric acid
+      - liquorice
+      - peach juice
+      - vitamin C
+    muchCaffeine: false
+    type: bag
+    base: fruit
+    inStock: true
+    brewTemp: 100
+    brewTime: 5+ minutes
+    whereFrom: Tesco
+  - name: Maple tea
+    tags: []
+    ingredients:
+      - black ceylon tea
+      - maple flavouring
+    muchCaffeine: true
+    type: bag
+    base: black
+    inStock: true
+    brewTemp: 100
+    brewTime: <5 minutes
+  - name: Turkish apple flavour instant powder "tea"
+    tags: []
+    ingredients:
+      - sugar
+      - chemicals
+    muchCaffeine: false
+    type: loose
+    base: not tea
+    inStock: true
+    brewTemp: 90
+    brewTime: '0'
