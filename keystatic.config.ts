@@ -19,8 +19,8 @@ export default config({
     ? {
         kind: "github",
         repo: {
-          owner: "TODO",
-          name: "TODO",
+          owner: "Beckalina",
+          name: "tea-menu",
         },
       }
     : { kind: "local" },
